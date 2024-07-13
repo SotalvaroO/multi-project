@@ -8,6 +8,12 @@
     <artifactId>multi-project</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
+
+    <properties>
+        <sonar.organization>chope-bastilla</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    </properties>
+
     <modules>
         <module>sample-lib</module>
         <module>sample-starter</module>
