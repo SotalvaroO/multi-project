@@ -1,7 +1,7 @@
 package com.multi.project;
 
 public class Sample {
-    private StringE value;
+    private String value;
 
     public Sample(String value) {
         this.value = value;
