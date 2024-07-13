@@ -5,16 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.multi.project</groupId>
-        <artifactId>multi-project</artifactId>
+        <artifactId>sample-lib</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>sample-lib</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>sample-sublib</module>
-    </modules>
-
+    <artifactId>sample-sublib</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
